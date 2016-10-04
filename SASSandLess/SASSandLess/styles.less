@@ -1,0 +1,40 @@
+﻿@import "Style.css";
+
+@main-color: #fff;
+@color2: @main-color;
+@containerFont: 15px;
+@containerFont2: @containerFont + 80px;
+
+body{
+    background:@main-color;
+}
+
+#container{
+    font-size:@containerFont;
+    color:@main-color - #ff0000;
+    #subContainer2
+    {
+        font-size:@containerFont+ 30;
+    }
+}
+
+
+#container{
+	 background:@main-color;
+     font-size:@containerFont;
+}
+#subContainer2{
+	 background:@color2;
+     font-size:@containerFont + 30;
+}
+
+#testMixin(@size)
+{
+    font-size: @size;
+    border-radius:@size + 2;
+}
+
+#subContainer2{
+    #testMixin(85px);
+}
+
