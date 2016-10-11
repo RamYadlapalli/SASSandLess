@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Closures.js" />
     <Content Include="JavaScript1.js" />
     <Content Include="JSPropertes.js" />
     <Content Include="ProtoTypes.js" />
