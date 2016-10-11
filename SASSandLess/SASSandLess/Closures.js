@@ -24,6 +24,7 @@ a[2]();
 
 
 
+
 //Closures
 
 var counter = function () {
